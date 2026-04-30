@@ -1,4 +1,4 @@
-# Reflection (Prompt Engineering Assignment)
+# Reflection
 
 Building this persona-based chatbot helped me realize that prompt engineering is not about writing complicated prompts, but about carefully designing model behavior. In the beginning, my prompts were very short and generic, so the responses also felt generic. Although the answers were technically correct, they did not reflect the intended persona clearly. After adding detailed persona descriptions, communication patterns, and behavioral constraints, the responses became much more accurate and personality-driven.
 
