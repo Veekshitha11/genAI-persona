@@ -3,8 +3,8 @@
 > A prompt engineering project built for **Scaler Academy — Assignment 01**.  
 > Chat with AI-powered personas of **Anshuman Singh**, **Abhimanyu Saxena**, and **Kshitij Mishra** — crafted with researched system prompts, few-shot examples, and chain-of-thought instructions.
 
-🔗 **Live Demo:** [your-app.netlify.app](https://persona-chatbots.netlify.app/)  
-🖥️ **Backend API:** [your-app.onrender.com](https://genai-persona-khhd.onrender.com)
+🔗 **Live Demo:** [frontend](https://persona-chatbots.netlify.app/)  
+🖥️ **Backend API:** [backend](https://genai-persona-khhd.onrender.com)
 
 ---
 
