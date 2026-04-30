@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://genai-persona-khhd.onrender.com/";
+const API_BASE_URL = "https://genai-persona-khhd.onrender.com";
 
 const personas = {
   anshuman: {
