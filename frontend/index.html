@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persona-Based AI Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <aside class="left-panel">
+        <header class="header">
+          <h1>Persona Studio</h1>
+          <p class="subtitle">Prompt Engineering Chat Interface</p>
+        </header>
+
+        <section class="persona-switcher" aria-label="Persona switcher">
+          <button class="persona-btn active" data-persona="anshuman">Anshuman Singh</button>
+          <button class="persona-btn" data-persona="abhimanyu">Abhimanyu Saxena</button>
+          <button class="persona-btn" data-persona="kshitij">Kshitij Mishra</button>
+        </section>
+
+        <section class="active-card">
+          <p class="label">Active Persona</p>
+          <p id="activePersonaLabel" class="active-name">Anshuman Singh</p>
+          <p id="activePersonaTagline" class="active-tagline">Systems-first founder mindset</p>
+        </section>
+
+        <section class="suggestions">
+          <p class="suggestions-title">Starter prompts</p>
+          <div id="suggestionChips" class="chips" aria-live="polite"></div>
+        </section>
+      </aside>
+
+      <section class="chat-panel">
+        <section id="chatBox" class="chat-box" aria-live="polite"></section>
+        <div id="typingIndicator" class="typing hidden">Typing response...</div>
+
+        <form id="chatForm" class="input-area">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Write your message and press Enter..."
+            autocomplete="off"
+            required
+          />
+          <button id="sendBtn" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
