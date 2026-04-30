@@ -25,17 +25,6 @@ const client = hasGroqKey
     })
   : null;
 
-// OpenAI config (commented as requested):
-// const client = new OpenAI({
-//   apiKey: process.env.OPENAI_API_KEY
-// });
-
-// Gemini config (commented as requested):
-// const client = new OpenAI({
-//   apiKey: process.env.GEMINI_API_KEY,
-//   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
-// });
-
 app.get("/", (_req, res) => {
   res.send("Backend is running");
 });
